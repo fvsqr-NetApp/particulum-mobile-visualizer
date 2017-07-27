@@ -1,5 +1,5 @@
 # Image and binary can be overidden with env vars.
-DOCKER_IMAGE ?= particulummobile/visualizer
+DOCKER_IMAGE ?= janatzend/particulum-mobile-frontend
 
 # Get the latest commit.
 GIT_COMMIT = $(strip $(shell git rev-parse --short HEAD))
